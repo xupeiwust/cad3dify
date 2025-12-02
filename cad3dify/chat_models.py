@@ -49,15 +49,15 @@ class ChatModelParameters(BaseModel):
             ),
             "claude": cls(
                 provider="anthropic",
-                model_name="claude-opus-4-1-20250805",
+                model_name="claude-opus-4-5-20251101",
                 temperature=temperature,
                 max_tokens=32000,
             ),
             "gemini": cls(
                 provider="google",
-                model_name="gemini-2.5-pro",
+                model_name="gemini-3-pro-preview",
                 temperature=temperature,
-                max_tokens=8192,
+                max_tokens=6400,
             ),
             "llama": cls(
                 provider="vertex_ai",

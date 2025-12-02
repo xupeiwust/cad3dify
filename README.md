@@ -1,6 +1,6 @@
 # cad3dify
 
-Using GPT-5 (or Claude 4.1 opus, Gemini 2.5 pro, Llama 3.2 on Vertex AI), generate a 3D CAD model (STEP file) from a 2D CAD image.
+Using GPT-5 (or Claude 4.5 opus, Gemini 3 pro, Llama 3.2 on Vertex AI), generate a 3D CAD model (STEP file) from a 2D CAD image.
 
 ## Getting started
 
@@ -25,8 +25,8 @@ Or run streamlit spp
 
 ```bash
 streamlit run scripts/app.py
-streamlit run scripts/app.py -- --model_type claude  # Use Claude 3.7 sonnet
-streamlit run scripts/app.py -- --model_type gemini  # Use Gemini 2.5 pro preview
+streamlit run scripts/app.py -- --model_type claude  # Use Claude 4.5 sonnet
+streamlit run scripts/app.py -- --model_type gemini  # Use Gemini 3.0 pro preview
 streamlit run scripts/app.py -- --model_type llama  # Use Llama 3.2 on Vertex AI
 ```
 
